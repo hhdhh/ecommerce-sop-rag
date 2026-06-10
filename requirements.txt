@@ -1,0 +1,13 @@
+langchain==0.2.6
+langchain-community==0.2.6
+chromadb==0.5.3
+sentence-transformers==3.0.1
+huggingface-hub>=0.23.0
+gradio==4.44.0
+openai>=1.30.0
+pydantic>=2.5
+python-dotenv>=1.0.0
+numpy<2.0
+tiktoken>=0.5.0
+pytest>=8.0
+ruff>=0.5.0
