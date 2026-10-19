@@ -9,8 +9,6 @@
 
 ## ✨ 这个项目是什么
 
-面试官问："你做过 RAG 吗？"
-
 **直接点开这个 demo**：https://huggingface.co/spaces/hhdhh/ecommerce-sop-rag
 
 输入："**亚马逊 Listing 被投诉版权侵权，第一步该做什么？**"
@@ -27,16 +25,7 @@
 
 ---
 
-## 🎯 对应 JD 哪些关键词
 
-| JD 原话 | 本项目体现 |
-|---------|-----------|
-| "深入折腾 Prompt Engineering" | `src/prompt.py` 里 4 套 prompt 模板：精排 / 拒答 / 多跳 / 引用 |
-| "RAG 架构优化" | 召回→重排→生成 三阶段；拒答机制；chunk 滑窗 + 元数据过滤 |
-| "复杂垂直电商场景下的准确率与稳定性" | 200 条真实业务 SOP（亚马逊 / TikTok Shop / Shopee 侵权 / 退换货 / 流量 / 物流） |
-| "AI Native" | 全部代码由 Claude Code + Cursor 协作完成，commit 历史里能看到 |
-
----
 
 ## 🏗️ 架构
 
